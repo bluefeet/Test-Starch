@@ -6,7 +6,4 @@ requires 'Moo' => '2.000000';
 requires 'Types::Standard' => '1.000005';
 requires 'Types::Common::String' => '1.000005';
 
-requires 'Starch' => '0.11';
-requires 'Starch::Manager' => '0.11';
-
 requires 'Test2::V0' => '0.000094';

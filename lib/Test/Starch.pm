@@ -46,9 +46,10 @@ if the C<store> argument is not passed it will defailt to a Memory store.
 use Types::Standard -types;
 use Types::Common::String -types;
 
-use Starch;
-use Starch::Manager;
 use Test2::V0;
+
+use Test2::Require::Module 'Starch';
+BEGIN { require Starch }
 
 use Moo;
 use namespace::clean;
