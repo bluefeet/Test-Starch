@@ -41,6 +41,12 @@
          }
       },
       "runtime" : {
+         "conflicts" : {
+            "Starch" : "< 0.12"
+         },
+         "recommends" : {
+            "Starch" : "0.12"
+         },
          "requires" : {
             "Moo" : "2.000000",
             "Test2::V0" : "0.000094",
