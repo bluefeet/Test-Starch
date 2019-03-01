@@ -1,0 +1,6 @@
+Revision history for Perl extension Test-Starch.
+
+{{$NEXT}}
+
+ - Split Test::Starch, from Starch, into its own distro.
+
