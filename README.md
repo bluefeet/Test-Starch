@@ -67,7 +67,7 @@ Test-Starch GitHub issue tracker:
 
 [https://github.com/bluefeet/Test-Starch/issues](https://github.com/bluefeet/Test-Starch/issues)
 
-# AUTHOR
+# AUTHORS
 
 Aran Clary Deltac <bluefeet@gmail.com>
 

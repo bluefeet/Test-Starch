@@ -489,7 +489,7 @@ Test-Starch GitHub issue tracker:
 
 L<https://github.com/bluefeet/Test-Starch/issues>
 
-=head1 AUTHOR
+=head1 AUTHORS
 
 Aran Clary Deltac E<lt>bluefeet@gmail.comE<gt>
 
