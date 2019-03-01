@@ -11,4 +11,4 @@ perl:
   - "5.28"
 
 before_install:
-  - cpanm Starch
+  - cpanm --quiet --notest Starch
