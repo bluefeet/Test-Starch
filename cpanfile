@@ -7,6 +7,7 @@ requires 'Types::Standard' => '1.000005';
 requires 'Types::Common::String' => '1.000005';
 
 requires 'Test2::V0' => '0.000094';
+requires 'Test2::Require::Module' => '0.000094';
 
 conflicts 'Starch' => '< 0.12';
 recommends 'Starch' => '0.12';

@@ -49,6 +49,7 @@
          },
          "requires" : {
             "Moo" : "2.000000",
+            "Test2::Require::Module" : "0.000094",
             "Test2::V0" : "0.000094",
             "Types::Common::String" : "1.000005",
             "Types::Standard" : "1.000005",
