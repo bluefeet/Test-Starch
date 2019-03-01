@@ -50,7 +50,7 @@ Calls ["test\_manager"](#test_manager), ["test\_state"](#test_state), and ["test
 
 ## test\_manager
 
-Tests [Starch](https://metacpan.org/pod/Starch).
+Tests [Starch::Manager](https://metacpan.org/pod/Starch::Manager).
 
 ## test\_state
 

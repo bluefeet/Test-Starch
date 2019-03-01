@@ -60,14 +60,14 @@ around BUILDARGS => sub{
     my $args = $class->$orig( @_ );
 
     return {
-        args => {
+        _manager_args => {
             store => { class=>'::Memory' },
             %$args,
         },
     };
 };
 
-has args => (
+has _manager_args => (
     is       => 'ro',
     isa      => HashRef,
     required => 1,
@@ -89,7 +89,7 @@ sub new_manager {
     my $extra_args = Starch::Manager->BUILDARGS( @_ );
 
     return Starch->new(
-        %{ $self->args() },
+        %{ $self->_manager_args() },
         %{ $extra_args },
     );
 }
@@ -110,7 +110,7 @@ sub test {
 
 =head2 test_manager
 
-Tests L<Starch>.
+Tests L<Starch::Manager>.
 
 =cut
 
